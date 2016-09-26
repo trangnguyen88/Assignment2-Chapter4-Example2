@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Simple App</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header>
+        <h1>Comments</h1>
+        <p>A simple app that allows a user to input comments</p>
+    </header>
+    <main>
+        <div class="comment-input">
+            <p>Add Your Comment:</p>
+            <div class="comment-input1">
+                <p>User 1</p><input class="user1" type="text"><button onclick=
+                "addComments()">Send</button>
+            </div>
+            <p></p>
+            <div class="comment-input2">
+                <p>User 2</p><input class="user2" type="text"><button onclick=
+                "addComments()">Send</button>
+            </div>
+        </div>
+        <div class="comments">
+            <p></p>
+        </div>
+    </main>
+    <footer>
+        <p>this work is released into the public domain</p>
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js">
+        </script> 
+        <script src="app.js">
+        </script>
+    </footer>
+</body>
+</html>
